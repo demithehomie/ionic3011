@@ -1,20 +1,85 @@
-<ion-header [translucent]="true">
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+   <ion-buttons slot="start">
+    <ion-button>
+      <ion-icon slot="icon-only" name="menu-alt"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+
+  <ion-title class="titlee">RIOSHOES</ion-title>
+
+  <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="notifications-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+
   </ion-toolbar>
+
+<ion-toolbar id="search-tool">
+  <ion-searchbar placeholder="Procure pelo seu produto"></ion-searchbar>
+</ion-toolbar>
+
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+<ion-content [fullscreen]="true">
+ 
+ <div class="slider">
+  <ion-nav [root]="component"></ion-nav>
+  <ion-card>
+    <img alt="Sapatos" src="https://images.complex.com/complex/images/c_scale,f_auto,q_auto,w_1920/fl_lossy,pg_1/n9mhxly6ltmwiinrmzu5/wmns-air-jordan-1-retro-high-atmpsphere-lead?fimg-ssr-default" />
+    <ion-card-header>
+      <ion-card-title>Air Jordan 1</ion-card-title>
+      <ion-card-subtitle>Tamanhos do 30 ao 45</ion-card-subtitle>
+    </ion-card-header>
+  
+
+
+    <ion-card-content>
+      Compre seu sapato na loja do Senac
+    </ion-card-content>
+    <ion-item>
+      <ion-badge slot="end">R$222</ion-badge>
+      <ion-label>Comprar Agora</ion-label>
+    </ion-item>
+  </ion-card>
+
+
+  <ion-card>
+    <img alt="Sapatos" src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/SOAAHAJKUNKAZJRQJZICY4YFPI.jpg" />
+    <ion-card-header>
+      <ion-card-title>Air Jordan 2</ion-card-title>
+      <ion-card-subtitle>Tamanhos do 30 ao 45</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Compre seu sapato na loja do Senac
+    </ion-card-content>
+    <ion-item>
+      <ion-badge slot="end">R$222</ion-badge>
+      <ion-label>Comprar Agora</ion-label>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <img alt="Sapatos" src="https://artwalk.vteximg.com.br/arquivos/ids/300110-380-380/55472-4-135-1.jpg?v=638043099318170000" />
+    <ion-card-header>
+      <ion-card-title>Air Jordan 3</ion-card-title>
+      <ion-card-subtitle>Tamanhos do 30 ao 45</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Compre seu sapato na loja do Senac
+    </ion-card-content>
+    <ion-item>
+      <ion-badge slot="end">R$222</ion-badge>
+      <ion-label>Comprar Agora</ion-label>
+    </ion-item>
+  </ion-card>
+
+</div>
 </ion-content>
+
+

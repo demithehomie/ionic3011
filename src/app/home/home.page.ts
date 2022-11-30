@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Prod1Component } from '../components/prod1/prod1.component';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  component = Prod1Component;
+
+ 
 
 }

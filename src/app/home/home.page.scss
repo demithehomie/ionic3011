@@ -25,3 +25,27 @@
 #container a {
   text-decoration: none;
 }
+
+.botão-de-menu {
+  margin: 15px;
+
+}
+
+#search-toolbar {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  ion-searchbar {
+    --border-radius: 50px;
+    margin: 0 auto 10px;
+    font-size: 18o9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.titlee {
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
